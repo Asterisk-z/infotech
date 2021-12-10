@@ -4,3 +4,36 @@
 .overlay-content .modal-content-inr .logo-main .logo-otr .logo-a .logo-img {
     width: 201px;
 }
+
+.footer-main .container-fluid .row-custom .col-subscribe-otr .col-subscribe-inr {
+    padding: 0 0 0 2px;
+}
+.footer-main .container-fluid .row-custom .col-subscribe-otr .col-subscribe-inr .email-otr {
+    margin: 26px 0 8px 0;
+}
+.footer-main {
+    padding: 50px 0;
+}
+.contact-main {
+    overflow: hidden;
+    position: relative;
+    margin: 0 0;
+    padding: 50px 0;
+    background: linear-gradient(
+                    252.07deg, rgba(1, 156, 234, 0.05) 0%, rgba(255, 255, 255, 0.05) 100%);
+}
+
+.contact-main::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/footer-bg-img.png);
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+}
+.contact-main .container-fluid .row-contact {
+    position: relative;
+    z-index: 2;
+}

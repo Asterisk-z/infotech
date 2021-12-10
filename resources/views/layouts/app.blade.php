@@ -37,13 +37,7 @@
                 <div class="spinnerPairCercle"></div>
             </div>
             <div class="spinnerPair">
-                {{-- <div class="spinnerPairCercle"></div> --}}
-            </div>
-            <div class="spinnerPair">
                 <div class="spinnerPairCercle"></div>
-            </div>
-            <div class="spinnerPair">
-                {{-- <div class="spinnerPairCercle"></div> --}}
             </div>
             <div class="spinnerPair">
                 <div class="spinnerPairCercle"></div>
