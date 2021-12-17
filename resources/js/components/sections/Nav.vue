@@ -4,7 +4,7 @@
         <div class="overlay-content">
             <div class="modal-content-inr">
                 <div class="logo-main">
-                    <main-logo/>
+                    <main-logo :contrast="contrast"/>
                     <div class="close-icon-otr">
                         <i class="ri-close-line close-icon"></i>
                     </div>
@@ -36,11 +36,11 @@
             </div>
         </div>
 
-        <div class="navbar-main-2">
+        <div class="navbar-main-2 sticky-top " id="navigation"  :class="contrast == 'light' ? 'light-nav' : 'dark-nav' ">
             <div class="container-fluid">
                 <div class="wrapper">
 
-                    <main-logo/>
+                    <main-logo  :contrast="contrast"/>
 
                     <div class="navigation-otr">
                         <ul class="navigation-inr">
@@ -65,6 +65,10 @@
                         </ul>
                     </div>
                     <div class="action-nav">
+                        <div class="burger-icon-otrr" @click="toggleContrast(contrast)">
+                            <i class="burger-icon" :class="contrast == 'light' ? 'ri-contrast-fill' : 'ri-sun-line' "></i>
+                        </div>
+
                         <div class="burger-icon-otr">
                             <i class="ri-menu-4-line burger-icon"></i>
                         </div>
@@ -90,9 +94,14 @@
 
         },
 
-        setup: () => ({
-            greeting: 'Hello World from Vue 3!'
-        }),
+        mounted() {
+
+            this.contrast = localStorage.getItem('DarkMode') ? localStorage.getItem('DarkMode') : this.contrast;
+            document.querySelector('#body').classList.add(this.contrast);
+
+
+        },
+
 
         data() {
 
@@ -101,35 +110,82 @@
                 socials: [
                     {
                         icon: 'assets/img/social-icon1.svg',
-                        name: 'facebook', 
+                        name: 'facebook',
                         link: 'facebook.com'
                     },
                     {
                         icon: 'assets/img/social-icon2.svg',
-                        name: 'facebook', 
+                        name: 'facebook',
                         link: 'facebook.com'
                     },
                     {
                         icon: 'assets/img/social-icon3.svg',
-                        name: 'facebook', 
+                        name: 'facebook',
                         link: 'facebook.com'
                     },
                     {
                         icon: 'assets/img/social-icon4.svg',
-                        name: 'facebook', 
+                        name: 'facebook',
                         link: 'facebook.com'
                     },
                     {
                         icon: 'assets/img/social-icon5.svg',
-                        name: 'facebook', 
+                        name: 'facebook',
                         link: 'facebook.com'
                     },
-                ]
+                ],
+
+                contrast : 'light',
 
             }
 
         },
 
+        methods: {
+            toggleContrast(mode) {
+
+
+                switch (mode) {
+                    case 'light':
+
+                        this.contrast = 'dark';
+                        document.querySelector('#navigation').classList.replace('dark-nav', 'light-nav');
+                        document.querySelector('#body').classList.replace('light', 'dark');
+
+                        break;
+
+                    default:
+
+                        this.contrast = 'light';
+                        document.querySelector('#navigation').classList.replace('light-nav', 'dark-nav');
+                        document.querySelector('#body').classList.replace('dark', 'light');
+
+                        break;
+                }
+
+
+                this.$emit('changeContrast', this.contrast)
+                localStorage.setItem('DarkMode',  this.contrast);
+
+
+            },
+
+        },
+
+        computed: {
+
+            // isDark() {
+
+            //     return localStorage.getItem('DarkMode') ?  localStorage.getItem('DarkMode') :
+
+            // }
+
+        }
 
     }
 </script>
+
+<style scoped>
+
+
+</style>

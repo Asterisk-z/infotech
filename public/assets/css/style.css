@@ -1,3 +1,9 @@
+body.dark {
+    background-color: #091830;
+}
+body.light {
+    background-color:  #c3efef;
+}
 .navbar-main-2 .container-fluid .wrapper .logo-otr .logo-a .logo-img {
     width: 220px;
 }
@@ -36,4 +42,116 @@
 .contact-main .container-fluid .row-contact {
     position: relative;
     z-index: 2;
+}
+
+
+.navbar-main-2 .container-fluid .wrapper .action-nav .burger-icon-otrr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    background-color: rgb(22 36 59);
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.navbar-main-2 .container-fluid .wrapper .action-nav .burger-icon-otrr .burger-icon {
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.overlay-content {
+    z-index: 2000;
+}
+
+.dark-nav {
+    background : #091830;
+}
+.light-nav {
+    background : #d4f0f0;
+}
+
+.navbar-main-2.light-nav .container-fluid .wrapper .navigation-otr .navigation-inr .navigation-li .nav-a {
+    color: #091830;
+}
+
+.navbar-main-2.light-nav .container-fluid .wrapper .action-nav .burger-icon-otr {
+    background-color: #c3efef;
+}
+
+.navbar-main-2.light-nav .container-fluid .wrapper .action-nav .burger-icon-otrr {
+    background-color: #c3efef;
+}
+
+.navbar-main-2.light-nav .container-fluid .wrapper .action-nav .burger-icon-otrr .burger-icon {
+    color: #091830;
+}
+.navbar-main-2.light-nav .container-fluid .wrapper .action-nav .burger-icon-otr .burger-icon {
+    color: #091830;
+}
+
+.navbar-main-2.light-nav .container-fluid .wrapper .navigation-otr .navigation-inr .navigation-li .nav-a:hover {
+    color: #019DEA;
+}
+
+body.light .hero4-main .container-fluid .row-custom .col-content-otr .col-content-inr .tag {
+    color: #091830 !important;
+}
+
+body.light .hero4-main .container-fluid .row-custom .col-content-otr .col-content-inr .heading {
+    color: #091830 !important;
+}
+
+body.light a.btn-primary-1.btn-hero.heading-SB {
+    background-color: #1b0854;
+}
+
+.about-main {
+    margin: 50px 0;
+}
+.about-main .container .wrapper .desc {
+    color: #c7c7c7;
+}
+body.light .about-main .container .wrapper .desc {
+    color: #1b0355;
+}
+.about-main .container .wrapper .heading {
+    margin: 24px 0 16px 0;
+    color: #FFFFFF;
+}
+
+body.light .contact-main .container-fluid .row-contact .col-form-otr .col-form-inr .heading {
+    color: #091830;
+}
+
+body.light .contact-main .container-fluid .row-contact .col-form-otr .col-form-inr .form-main .input-main .input-otr .input {
+    background: #c3efef;
+    color: #091830;
+}
+body.light .contact-main .container-fluid .row-contact .col-form-otr .col-form-inr .form-main .input-otr .textarea {
+    background: #c3efef;
+    color: #091830;
+}
+body.light .contact-main .container-fluid .row-contact .col-contact-otr .col-contact-inr {
+    background-color: rgb(195 239 239);
+}
+body.light .contact-main .container-fluid .row-contact .col-contact-otr .col-contact-inr .social-icon .icon-ul .icon-li .icon-a {
+    background-color: rgb(212 240 240);
+}
+body.light .contact-main .container-fluid .row-contact .col-contact-otr .col-contact-inr .contact-icon-otr .email-otr .icon-otr .icon-inr {
+    background-color: rgb(212 240 240);
+}
+body.light .contact-main .container-fluid .row-contact .col-contact-otr .col-contact-inr .contact-icon-otr .email-otr .linkk {
+    color: #091830;
+}
+body.light .copyright-main .container-fluid .wrapper .copy-right {
+    color: #092c42;
+}
+body.light .copyright-main .container-fluid .wrapper .linkk-otr .linkk-inr .linkk-page {
+    color: #091830;
+}
+body.light .copyright-main .container-fluid .wrapper .linkk-otr .linkk-inr {
+    color: #091830;
 }

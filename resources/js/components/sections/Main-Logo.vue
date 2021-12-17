@@ -3,7 +3,9 @@
 
     <div class="logo-otr">
         <a href="#" class="logo-a">
-            <img class="logo-img" v-bind:src="logo" alt="brand-logo">
+
+            <img class="logo-img" v-bind:src="logo" alt="brand-logo" v-if="contrast == 'dark' ">
+            <img class="logo-img" v-bind:src="darklogo" alt="brand-logo" v-else>
         </a>
     </div>
 
@@ -11,14 +13,18 @@
 
 <script>
 
-    
+
 
     export default {
 
         components: {
 
-          
 
+
+        },
+
+        props: {
+            contrast: String
         },
 
         setup: () => ({
@@ -32,11 +38,15 @@
             }
 
         },
-        
+
         computed: {
 
             logo() {
                 return 'images/logo-light.svg'
+            },
+
+            darklogo() {
+                return 'images/logo.svg'
             },
 
         }

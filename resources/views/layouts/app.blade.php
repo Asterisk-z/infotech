@@ -11,7 +11,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Akshiptika Infotech</title>
+    <title>Web and App Deveopment | Akshiptika Infotech</title>
 
     <link rel="icon" href="{{ asset('favicon.ico') }}">
 
@@ -28,7 +28,7 @@
 
 </head>
 
-<body class="">
+<body class="" id="body">
 
 
     <div class="Loader">
