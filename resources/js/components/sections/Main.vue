@@ -9,7 +9,7 @@
                             <h1 class="heading heading-h1">For next generation of <br> big business</h1>
                             <!-- <p class="desc heading-L"> <br> </p> -->
                             <div class="action">
-                                <a href="#" class="btn-primary-1 btn-hero heading-SB">Explore</a>
+                                <a href="#contactus" class="btn-primary-1 btn-hero heading-SB">Contact us</a>
                             </div>
                         </div>
                     </div>

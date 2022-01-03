@@ -10,7 +10,7 @@
         <about-section/>
 
 
-
+        <portfolio-section/>
 
 
         <footer-section/>
@@ -24,6 +24,7 @@
     import FooterSection from '../../components/sections/Footer.vue'
     import MainSection from '../../components/sections/Main.vue'
     import AboutSection from '../../components/sections/About.vue'
+    import PortfolioSection from '../../components/sections/Portfolio.vue'
 
     export default {
 
@@ -33,6 +34,7 @@
             FooterSection,
             MainSection,
             AboutSection,
+            PortfolioSection,
 
         },
 

@@ -11,7 +11,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Web and App Deveopment | Akshiptika Infotech</title>
+    <title>Web and App Development | Akshiptika Infotech</title>
 
     <link rel="icon" href="{{ asset('favicon.ico') }}">
 
@@ -30,8 +30,7 @@
 
 <body class="" id="body">
 
-
-    <div class="Loader">
+    {{-- <div class="Loader">
         <div class="spinnerPairHolder">
             <div class="spinnerPair">
                 <div class="spinnerPairCercle"></div>
@@ -43,7 +42,7 @@
                 <div class="spinnerPairCercle"></div>
             </div>
         </div>
-    </div>
+    </div> --}}
 
     <div id="app">
 

@@ -11,22 +11,22 @@
                 </div>
                 <div class="accordion accordion-flush p-5" id="accordionFlushExample">
                     <div class="linkk-otr">
-                        <a href="#" class="linkk-home heading-h4">Home</a>
+                        <a href="/" class="linkk-home heading-h4">Home</a>
                     </div>
                     <div class="linkk-otr">
-                        <a href="#" class="linkk-home heading-h4">About Us</a>
+                        <a href="/about-us" class="linkk-home heading-h4">About Us</a>
                     </div>
                     <div class="linkk-otr">
-                        <a href="#" class="linkk-home heading-h4">Our Portfolio</a>
+                        <a href="/portfolio" class="linkk-home heading-h4">Our Portfolio</a>
                     </div>
                     <div class="linkk-otr">
-                        <a href="#" class="linkk-home heading-h4">Meet The Team</a>
+                        <a href="/team" class="linkk-home heading-h4">Meet The Team</a>
                     </div>
                     <div class="linkk-otr">
-                        <a href="#" class="linkk-home heading-h4">Blog</a>
+                        <a href="/blog" class="linkk-home heading-h4">Blog</a>
                     </div>
                     <div class="linkk-otr">
-                        <a href="#" class="linkk-home heading-h4">Contact Us</a>
+                        <a href="#contactus" class="linkk-home heading-h4">Contact Us</a>
                     </div>
                 </div>
                 <div class="social-icon">
@@ -45,22 +45,22 @@
                     <div class="navigation-otr">
                         <ul class="navigation-inr">
                             <li class="navigation-li nav-li3">
-                                <a href="#" class="nav-a heading-SB">Home</a>
+                                <a href="/" class="nav-a heading-SB">Home</a>
                             </li>
                             <li class="navigation-li nav-li3">
-                                <a href="#" class="nav-a heading-SB">About Us</a>
+                                <a href="/about-us" class="nav-a heading-SB">About Us</a>
                             </li>
                             <li class="navigation-li nav-li3">
-                                <a href="#" class="nav-a heading-SB">Our Portfolio</a>
+                                <a href="/portfolio" class="nav-a heading-SB">Our Portfolio</a>
                             </li>
                             <li class="navigation-li nav-li3">
-                                <a href="#" class="nav-a heading-SB">Team</a>
+                                <a href="/team" class="nav-a heading-SB">Team</a>
                             </li>
                             <li class="navigation-li nav-li3">
-                                <a href="#" class="nav-a heading-SB">Blog</a>
+                                <a href="/blog" class="nav-a heading-SB">Blog</a>
                             </li>
                             <li class="navigation-li nav-li3">
-                                <a href="#" class="nav-a heading-SB">Contact Us</a>
+                                <a href="#contactus" class="nav-a heading-SB">Contact Us</a>
                             </li>
                         </ul>
                     </div>

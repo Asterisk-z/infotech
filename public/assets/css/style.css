@@ -115,7 +115,7 @@ body.light a.btn-primary-1.btn-hero.heading-SB {
     color: #c7c7c7;
 }
 body.light .about-main .container .wrapper .desc {
-    color: #1b0355;
+    color: #1b0154;
 }
 .about-main .container .wrapper .heading {
     margin: 24px 0 16px 0;
@@ -123,16 +123,16 @@ body.light .about-main .container .wrapper .desc {
 }
 
 body.light .contact-main .container-fluid .row-contact .col-form-otr .col-form-inr .heading {
-    color: #091830;
+    color: #1b0154;
 }
 
 body.light .contact-main .container-fluid .row-contact .col-form-otr .col-form-inr .form-main .input-main .input-otr .input {
     background: #c3efef;
-    color: #091830;
+    color: #1b0154;
 }
 body.light .contact-main .container-fluid .row-contact .col-form-otr .col-form-inr .form-main .input-otr .textarea {
     background: #c3efef;
-    color: #091830;
+    color: #1b0154;
 }
 body.light .contact-main .container-fluid .row-contact .col-contact-otr .col-contact-inr {
     background-color: rgb(195 239 239);
@@ -144,14 +144,123 @@ body.light .contact-main .container-fluid .row-contact .col-contact-otr .col-con
     background-color: rgb(212 240 240);
 }
 body.light .contact-main .container-fluid .row-contact .col-contact-otr .col-contact-inr .contact-icon-otr .email-otr .linkk {
-    color: #091830;
+    color: #1b0154;
 }
 body.light .copyright-main .container-fluid .wrapper .copy-right {
-    color: #092c42;
+    color: #1b0154;
 }
 body.light .copyright-main .container-fluid .wrapper .linkk-otr .linkk-inr .linkk-page {
-    color: #091830;
+    color: #1b0154;
 }
 body.light .copyright-main .container-fluid .wrapper .linkk-otr .linkk-inr {
-    color: #091830;
+    color: #1b0154;
+}
+body.light .about-main .container .wrapper .heading {
+    color: #1b0154;
+}
+
+.feature-main .container-fluid .row-custom .col-otr .col-inr .art-name {
+    display: inline-flex;
+    color: #FFFFFF;
+    margin: 5px 0;
+    transition: 0.3s;
+}
+.feature-main .container-fluid .row-custom .col-otr .col-inr .art-name:hover {
+    color: #FFFFFF;
+}
+body.light .feature-main .container-fluid .row-custom .col-otr .col-inr .art-name {
+    color: #1b0154;
+}
+body.light .feature-main .container-fluid .row-custom .col-otr .col-inr .art-name:hover {
+    color: #1b0154;
+}
+body.light .feature-main .container-fluid .row-custom .col-otr .col-inr {
+    background-color: rgb(155 195 196);
+}
+
+.feature-main .container-fluid .row-custom .col-otr .col-inr .cover-img-otr .cover-img#team {
+    height: 250px;
+}
+
+@media (max-width: 991px) {
+    .feature-main .container-fluid .row-custom .col-otr .col-inr .cover-img-otr .cover-img#team {
+        height: 300px;
+    }
+}
+
+body.light .contact-main .container-fluid .row-contact .col-contact-otr .col-contact-inr .social-icon .icon-ul .icon-li .icon-a:hover {
+    background-color: #019DEA;
+}
+
+body.light .inner-header-main .container-fluid .wrapper .heading {
+    color: #1b0759;
+    margin: 0 0 16px 0;
+}
+
+.feature-main {
+    margin: 100px 0;
+    overflow: hidden;
+}
+
+ #heros {
+        background-image: url('../img/landing-hero-img.jpg');
+    }
+
+    body.light .how-it-work-main .container-fluid .row-custom-main .tab-content .row-custom-inr .col-work-otr .col-work-inr .icon-otr .icon {
+    font-size: 32px;
+    color: #1b0154;
+}
+
+body.light .how-it-work-main .container-fluid .row-custom-main .tab-content .row-custom-inr .col-work-otr .col-work-inr .icon-otr {
+    background-color: rgb(88, 143, 146);
+}
+
+body.light .how-it-work-main .container-fluid .row-custom-main .tab-content .row-custom-inr .col-work-otr .col-work-inr {
+    background-color: rgb(157 195 196);
+}
+
+body.light .how-it-work-main .container-fluid .row-custom-main .tab-content .row-custom-inr .col-work-otr .col-work-inr .content .desc {
+    color: #1b0253;
+}
+
+body.light .how-it-work-main .container-fluid .row-custom-main .tab-content .row-custom-inr .col-work-otr .col-work-inr .content .heading {
+    color: #1b0254;
+}
+
+body.light .how-it-work-main .container-fluid .wrapper .tab-otr .heading {
+    color: #1b0355;
+}
+.how-it-work-main {
+    margin: 79px 0;
+}
+.how-it-work-main .container-fluid .wrapper {
+    margin: 0px 0 10px 0;
+}
+
+.connect-wallet-main .container-fluid .row-custom .col-box-otr .col-box-inr .row-custom-inr .col-wallet-otr .col-wallet-inr .icon-otr {
+    width: auto;
+    height: 140px;
+    border-radius: 12px;
+    padding: 0 0 0 0;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.connect-wallet-main {
+    margin: 80px 0;
+}
+
+.connect-wallet-main .container-fluid .wrapper {
+    margin: 0 0 25px 0;
+}
+
+body.light .connect-wallet-main .container-fluid .row-custom .col-box-otr .col-box-inr .row-custom-inr .col-wallet-otr .col-wallet-inr {
+    background-color: rgb(157 195 196);
+}
+
+body.light .connect-wallet-main .container-fluid .row-custom .col-box-otr .col-box-inr .row-custom-inr .col-wallet-otr .col-wallet-inr .icon-otr {
+    background-color: rgb(191 237 240);
+}
+
+body.light .connect-wallet-main .container-fluid .wrapper .heading {
+    color: #1b0355;
 }
